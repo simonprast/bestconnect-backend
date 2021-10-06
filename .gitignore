@@ -1,0 +1,19 @@
+# Virtual Environment
+.venv
+
+# Environment variables
+.env
+
+# Database files
+db.sqlite3
+
+# Pycache
+__pycache__/
+*.pyc
+
+# Files creates during runtime
+media/*
+userdata/*
+
+# MacOS Files
+.DS_Store
