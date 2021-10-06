@@ -1,0 +1,7 @@
+django==3.1.2
+graphene-django==2.13.0
+django-graphql-jwt==0.3.0
+django-graphql-auth==0.3.13
+colorama==0.4.4
+python-dotenv==0.15.0
+django-mail-templated==2.6.5
