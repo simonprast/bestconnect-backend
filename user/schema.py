@@ -24,8 +24,6 @@ from .twilio_verify import send_code, verify_code
 
 from .views import initialize_verification_process
 
-from .system_messages import system_messages
-
 
 def get_email_object(user, email_address):
     if EmailAddress.objects.filter(user=user, email_address=email_address).exists():

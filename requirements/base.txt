@@ -8,3 +8,4 @@ python-dotenv==0.15.0
 django-mail-templated==2.6.5
 twilio==6.61.0
 phonenumbers==8.12.28
+-r app.txt

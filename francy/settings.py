@@ -42,6 +42,11 @@ ADMIN_USER = os.getenv('ADMIN_USER')
 ADMIN_MAIL = os.getenv('ADMIN_MAIL')
 ADMIN_PASSWORD = os.getenv('ADMIN_PASSWORD')
 
+# Application definition
+MS_CLIENT_ID = os.getenv('MS_CLIENT_ID')
+MS_CLIENT_SECRET = os.getenv('MS_CLIENT_SECRET')
+MS_REDIRECT_URI = os.getenv('MS_REDIRECT_URI')
+
 # Wether to keep the superuser object persistent on server restart
 ADMIN_PERSISTENT = True
 

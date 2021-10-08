@@ -121,7 +121,6 @@ class User(AbstractBaseUser):
     last_phone_request = models.DateTimeField(null=True, blank=True)
     last_phone_code_request = models.DateTimeField(null=True, blank=True)
     last_email_request = models.DateTimeField(null=True, blank=True)
-    last_email_code_request = models.DateTimeField(null=True, blank=True)
 
     objects = UserManager()
 
